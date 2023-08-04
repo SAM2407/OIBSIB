@@ -1,0 +1,50 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+  background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper{
+    width: 450px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWt_QyyVWwu6tRcB86IaaH8nTRNi857ncOHA&usqp=CAU);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+    padding: 80px 45px;
+    position: absolute;
+    transform: translate(-40%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width:50%;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #c51111;
+    outline: invert;
+    margin-top: 8px;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:focus{
+    border-color: #5c13d9;
+}
+#celsius{
+    margin-right: 15px;
+}
+#fahrenheit{
+    margin-left: 15px;
+}
